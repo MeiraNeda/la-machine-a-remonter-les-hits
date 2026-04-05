@@ -7,11 +7,11 @@ import HitCard from '../components/HitCard';
 import LoadingSpinner from '../components/LoadingSpinner';
 import { useDataRefresh } from '../context/DataRefreshContext';
 
-const HITS_PER_PAGE = 20;
+const HITS_PER_PAGE = 12;
 
 export default function Home() {
-  const { user, signOut } = useAuth();
-  const { refreshTrigger } = useDataRefresh();
+  const { user } = useAuth();
+  const { refreshTrigger } = useDataRefresh(); // Garde cette ligne si tu l'utilises ailleurs
 
   const [hits, setHits] = useState([]);
   const [filteredHits, setFilteredHits] = useState([]);
@@ -22,31 +22,47 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Charger tous les hits
+  // === REAL-TIME : Écoute des changements dans la table 'hits' ===
   useEffect(() => {
+    // Charger les hits initialement
     async function fetchHits() {
       try {
         setLoading(true);
-        setError(null);
-
         const { data, error } = await supabase
           .from('hits')
           .select('*')
           .order('year', { ascending: false });
 
         if (error) throw error;
-
         setHits(data || []);
       } catch (err) {
         console.error('Erreur chargement hits:', err);
-        setError('Impossible de charger les hits pour le moment');
+        setError('Impossible de charger les hits');
       } finally {
         setLoading(false);
       }
     }
 
     fetchHits();
-  }, [refreshTrigger]);
+
+    // Abonnement Real-time
+    const subscription = supabase
+      .channel('hits-changes')
+      .on(
+        'postgres_changes',
+        { event: '*', schema: 'public', table: 'hits' },
+        (payload) => {
+          console.log('Changement détecté dans hits:', payload);
+          fetchHits(); // Recharger les hits à chaque changement
+        }
+      )
+      .subscribe();
+
+    // Nettoyage à la fermeture
+    return () => {
+      supabase.removeChannel(subscription);
+    };
+  }, []);
 
   // Filtrage combiné
   const filteredAndSortedHits = useMemo(() => {
@@ -107,7 +123,6 @@ export default function Home() {
     }
 
     pages.push(1);
-
     let start = Math.max(2, currentPage - 1);
     let end = Math.min(totalPages - 1, currentPage + 1);
 
@@ -124,9 +139,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen pb-20">
-      {/* HERO SECTION - Visuellement enrichie */}
+      {/* HERO SECTION */}
       <div className="relative py-20 px-6 text-center overflow-hidden bg-gradient-to-b from-black via-gray-950 to-black">
-        {/* Effet de fond néon subtil */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#ff00ff10_0%,transparent_70%)]" />
 
         <div className="relative max-w-5xl mx-auto">
@@ -139,7 +153,7 @@ export default function Home() {
             Histoires secrètes • Clips iconiques • Quizzes nostalgiques
           </p>
 
-          {/* Barre de recherche améliorée */}
+          {/* Barre de recherche */}
           <div className="max-w-2xl mx-auto mb-14 relative">
             <div className="relative">
               <input
@@ -161,7 +175,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Filtres année / pays */}
+          {/* Filtres */}
           <div className="max-w-2xl mx-auto mb-12 flex flex-col sm:flex-row gap-4 justify-center">
             <select
               value={selectedYear}
@@ -192,7 +206,7 @@ export default function Home() {
             )}
           </div>
 
-          {/* Boutons d'action principaux */}
+          {/* Boutons d'action */}
           <div className="flex flex-wrap justify-center gap-6">
             {user ? (
               <Link
@@ -220,7 +234,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Section principale avec compteur et liste */}
+      {/* Section principale avec liste des hits */}
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="text-center mb-12">
           <h2 className="text-5xl font-bold neon-text mb-4">
@@ -264,7 +278,7 @@ export default function Home() {
               ))}
             </div>
 
-            {/* Pagination avancée */}
+            {/* Pagination */}
             {totalPages > 1 && (
               <div className="flex justify-center items-center gap-4 mt-16">
                 <button
