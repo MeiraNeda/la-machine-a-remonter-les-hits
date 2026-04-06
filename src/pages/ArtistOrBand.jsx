@@ -88,7 +88,7 @@ const artistData = [
   "title": "Thriller",
   "artist": "Michael Jackson",
   "year": 1982,
-  "audio_path": "hits/bc5a3a5f-035f-4a25-83c5-049cbb4ad2bc.mp3",
+  "audio_path": "hits/622ba1ae-bacc-47d6-98ca-cda438a054be.mp3",
   "isGroup": false,
   "desc": "Titre emblématique de Michael Jackson issu de l’album Thriller, mélange de pop, funk et éléments de musique électronique."
 },
@@ -539,6 +539,150 @@ const artistData = [
   "audio_path": "hits/b2731f2e-fa51-45b8-826b-e939e39421b9.mp3",
   "isGroup": false,
   "desc": "Version live dynamique de Paul McCartney interprétant 'Coming Up' à Glasgow, mêlant énergie rock et funk, très appréciée pour son engagement sur scène."
+},
+{
+  "title": "Enjoy the Silence",
+  "artist": "Depeche Mode",
+  "year": 1990,
+  "audio_path": "hits/e95fb79a-f16c-4097-a8f5-533c236da326.mp3,",
+  "isGroup": true,
+  "desc": "Hit emblématique de Depeche Mode mêlant synth-pop et new wave, reconnu pour son ambiance mélancolique et son refrain mémorable."
+},
+{
+  "title": "Come On Eileen",
+  "artist": "Dexys Midnight Runners",
+  "year": 1982,
+  "audio_path": "hits/4f63ec47-aa8f-498d-b1da-8d711fc6dfe6.mp3",
+  "isGroup": true,
+  "desc": "Chanson emblématique mêlant pop et soul, célèbre pour son refrain entraînant et son énergie festive."
+},
+{
+  "title": "That’s What Friends Are For",
+  "artist": "Dionne Warwick",
+  "year": 1985,
+  "audio_path": "hits/73363726-26f2-48ad-9f00-0452522c4cf5.mp3",
+  "isGroup": false,
+  "desc": "Ballade pop-soul emblématique réunissant Dionne Warwick avec Elton John, Gladys Knight et Stevie Wonder, célébrant l’amitié et la solidarité."
+},
+{
+  "title": "Ebony and Ivory",
+  "artist": "Paul McCartney & Stevie Wonder",
+  "year": 1982,
+  "audio_path": "hits/893a5a1b-760b-490a-a6f2-3ce5b7efd781.mp3",
+  "isGroup": true,
+  "desc": "Tube emblématique prônant l’harmonie raciale, alignant les touches noires et blanches du piano comme métaphore de coexistence — ici partagé via la chaîne Reelblack One."
+},
+{
+  "title": "Week-end à Rome",
+  "artist": "Etienne Daho",
+  "year": 1984,
+  "audio_path": "hits/633a627d-bb84-47da-b719-851f1109de83.mp3",
+  "isGroup": false,
+  "desc": "Chanson emblématique d’Etienne Daho, mêlant pop et new wave, avec une atmosphère romantique et un style sophistiqué."
+},
+{
+  "title": "Der Kommissar",
+  "artist": "Falco",
+  "year": 1981,
+  "audio_path": "hits/def51103-9e33-4fe0-921e-d62445b54818.mp3",
+  "isGroup": false,
+  "desc": "Hit emblématique de Falco mélangeant pop et new wave, célèbre pour son rythme entraînant et son style unique de rap chanté en allemand."
+},
+{
+  "title": "Relax",
+  "artist": "Frankie Goes To Hollywood",
+  "year": 1983,
+  "audio_path": "hits/d314e3f9-f0d0-4042-b3c4-6f7195c5bb36.mp3",
+  "isGroup": true,
+  "desc": "Titre new wave provocateur et très énergique de Frankie Goes To Hollywood, célèbre pour son refrain puissant et sa polémique lors de sa sortie."
+},
+{
+  "title": "Two Tribes",
+  "artist": "Frankie Goes To Hollywood",
+  "year": 1984,
+  "audio_path": "hits/32a649cb-889f-4b9a-b016-e705983fe988.mp3",
+  "isGroup": true,
+  "desc": "Tube new wave et synthpop au ton provocateur, célèbre pour sa production explosive et ses paroles inspirées par les tensions de la guerre froide."
+},
+{
+  "title": "One More Try",
+  "artist": "George Michael",
+  "year": 1988,
+  "audio_path": "hits/a6ceaba0-cb0c-45e8-9e96-33ea34ef8f5a.mp3",
+  "isGroup": false,
+  "desc": "Ballade soul emblématique de George Michael, mettant en avant sa voix émotive et sa sensibilité musicale."
+},
+{
+  "title": "Plus près des étoiles",
+  "artist": "Gold",
+  "year": 1985,
+  "audio_path": "hits/cfcb6edd-5f1e-41c2-bd81-9feafba40fe7.mp3",
+  "isGroup": true,
+  "desc": "Chanson emblématique du groupe Gold, symbole de la pop française des années 80, connue pour son refrain fédérateur et son énergie positive."
+},
+{
+  "title": "Hard to Say I’m Sorry",
+  "artist": "Chicago",
+  "year": 1982,
+  "audio_path": "a162d02f-d4ae-4862-8ddc-7d59e3570769.mp3",
+  "isGroup": true,
+  "desc": "Ballade pop-rock emblématique du groupe Chicago, célèbre pour son piano doux, ses harmonies vocales et son refrain émotionnel."
+},
+{
+  "title": "Fame",
+  "artist": "Irene Cara",
+  "year": 1980,
+  "audio_path": "hits/a44d7f2f-5547-445d-9a55-ea9edbc85175.mp3",
+  "isGroup": false,
+  "desc": "Chanson culte interprétée par Irene Cara pour le film 'Fame', mêlant pop et disco avec un message sur la célébrité et l’ambition."
+},
+{
+  "title": "Tombé du ciel",
+  "artist": "Jacques Higelin",
+  "year": 1988,
+  "audio_path": "hits/c14d9e6b-84cf-4ffb-85be-3085f5094b97.mp3",
+  "isGroup": false,
+  "desc": "Chanson poétique et imaginative de Jacques Higelin, mélangeant rock et chanson française, célèbre pour sa légèreté et son atmosphère aérienne."
+},
+{
+  "title": "Nasty",
+  "artist": "Janet Jackson",
+  "year": 1986,
+  "audio_path": "hits/496a72ea-52cf-4446-aa32-adcf7beccfc7.mp3",
+  "isGroup": true,
+  "desc": "Hymne emblématique de Janet Jackson mêlant funk et R&B, célèbre pour son attitude audacieuse et son refrain percutant."
+},
+{
+  "title": "Comme toi",
+  "artist": "Jean-Jacques Goldman",
+  "year": 1982,
+  "audio_path": "hits/ad0ff03c-7740-4795-9dee-583ce6d5f0a4.mp3",
+  "isGroup": false,
+  "desc": "Chanson émouvante de Jean-Jacques Goldman racontant l’histoire d’une petite fille juive pendant la Seconde Guerre mondiale, avec une mélodie douce et des paroles poignantes."
+},
+{
+  "title": "The Power of Love",
+  "artist": "Jennifer Rush",
+  "year": 1984,
+  "audio_path": "hits/d91596f7-1fd3-40e5-aa83-03276d47ca59.mp3",
+  "isGroup": false,
+  "desc": "Ballade puissante de Jennifer Rush devenue un classique des années 80, célèbre pour sa montée émotionnelle et la performance vocale impressionnante de la chanteuse."
+},
+{
+  "title": "Don’t Stop Believin’",
+  "artist": "Journey",
+  "year": 1981,
+  "audio_path": "hits/dbb3285d-0613-4acc-8c09-96988cfc6a4f.mp3",
+  "isGroup": true,
+  "desc": "Hymne rock emblématique de Journey, célèbre pour son riff de piano mémorable et son message optimiste inspirant."
+},
+{
+  "title": "Ève lève-toi",
+  "artist": "Julie Pietri",
+  "year": 1986,
+  "audio_path": "hits/eb819e61-affb-4dea-92a8-04913f4f92c8.mp3",
+  "isGroup": false,
+  "desc": "Chanson emblématique de Julie Pietri mêlant pop et variété française, célèbre pour son message féminin fort et son refrain marquant."
 }
 ];
 

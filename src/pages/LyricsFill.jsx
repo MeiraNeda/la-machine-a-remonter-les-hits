@@ -61,7 +61,8 @@ const lyricsData = [
   artist: "Trust",
   year: 1980,
   audio_path: "hits/67f0e6ad-da3d-4170-ae98-535fcf56a4e3.mp3",
-  isGroup: true,
+  lyrics:"",
+  missingWord:"",
   desc: "Titre culte du groupe de hard rock français Trust, critique de la société et du monde du travail."
 },
 {
@@ -86,7 +87,7 @@ const lyricsData = [
     "title": "Thriller",
     "artist": "Michael Jackson",
     "year": 1982,
-    "audio_path": "hits/bc5a3a5f-035f-4a25-83c5-049cbb4ad2bc.mp3",
+    "audio_path": "hits/622ba1ae-bacc-47d6-98ca-cda438a054be.mp3",
     "lyrics": "Cause this is thriller, thriller night / There ain't no second chance _____",
     "missingWord": "against the thing",
     "choices": ["against the thing", "to survive", "to escape", "for me"]
@@ -599,6 +600,179 @@ const lyricsData = [
     "lyrics": "You want a love to last forever / One that will never fade away / I want to help you with your problem / Stick around, I _____",
     "missingWord": "say",
     "choices": ["say", "stay", "play", "dance"]
+},
+{
+    "title": "Enjoy the Silence",
+    "artist": "Depeche Mode",
+    "year": 1990,
+    "audio_path": "hits/e95fb79a-f16c-4097-a8f5-533c236da326.mp3",
+    "lyrics": "Words like violence / Break the silence, _____",
+    "missingWord": "come crashing in",
+    "choices": ["come crashing in", "fall from heaven", "cut like a knife", "echo around"]
+},
+{
+    "title": "Come On Eileen",
+    "artist": "Dexys Midnight Runners",
+    "year": 1982,
+    "audio_path": "hits/4f63ec47-aa8f-498d-b1da-8d711fc6dfe6.mp3",
+    "lyrics": "Come on Eileen, I swear (well he means) _____",
+    "missingWord": "at this moment",
+    "choices": ["at this moment", "right now", "tonight", "with me"]
+},
+{
+    "title": "That’s What Friends Are For",
+    "artist": "Dionne Warwick",
+    "year": 1985,
+    "audio_path": "hits/73363726-26f2-48ad-9f00-0452522c4cf5.mp3",
+    "lyrics": "Keep smiling, keep shining _____",
+    "missingWord": "knowing you can always count on me",
+    "choices": [
+        "knowing you can always count on me",
+        "even when skies are gray",
+        "through thick and thin",
+        "cause I care"
+    ]
+},
+{
+  title: "Ebony and Ivory",
+  artist: "Paul McCartney & Stevie Wonder",
+  year: 1982,
+  audio_path: "hits/893a5a1b-760b-490a-a6f2-3ce5b7efd781.mp3",
+  lyrics: "Ebony and ivory live together in perfect _____",
+  missingWord: "harmony",
+  choices: ["harmony", "rhythm", "melody", "freedom"]
+},
+{
+  "title": "Week‑end à Rome",
+  "artist": "Étienne Daho",
+  "year": 1984,
+  audio_path: "hits/633a627d-bb84-47da-b719-851f1109de83.mp3",
+  "lyrics": "Week‑end à Rome / Afin de coincer la _____ dans ta bulle",
+  "missingWord": "bulle",
+  "choices": ["bulle", "pluie", "radio", "plaisir"]
+},
+{
+    "title": "Der Kommissar",
+    "artist": "Falco",
+    "year": 1981,
+    "audio_path": "hits/def51103-9e33-4fe0-921e-d62445b54818.mp3",
+    "lyrics": "Alles klar, Herr Kommissar / Du warst wohl wieder mal _____",
+    "missingWord": "zu schnell",
+    "choices": ["zu schnell", "zu langsam", "zu spät", "zu früh"]
+},
+{
+  title: "Relax",
+  artist: "Frankie Goes To Hollywood",
+  year: 1983,
+  audio_path: "hits/d314e3f9-f0d0-4042-b3c4-6f7195c5bb36.mp3",
+  lyrics: "Relax, don't _____ it / When you want to go to it",
+  missingWord: "do",
+  choices: ["do", "stop", "fight", "push"]
+},
+{
+  title: "Two Tribes",
+  artist: "Frankie Goes To Hollywood",
+  year: 1984,
+  audio_path: "hits/32a649cb-889f-4b9a-b016-e705983fe988.mp3",
+  lyrics: "When two tribes go to _____ / A point is all that you can score",
+  missingWord: "war",
+  choices: ["war", "fight", "battle", "power"]
+},
+{
+  "title": "One More Try",
+  "artist": "George Michael",
+  "year": 1987,
+  "audio_path": "hits/a6ceaba0-cb0c-45e8-9e96-33ea34ef8f5a.mp3",
+  "lyrics": "I'm looking out for angels / Just trying to find some _____",
+  "missingWord": "peace",
+  "choices": ["love", "peace", "danger", "joy"]
+},
+{
+  title: "Plus près des étoiles",
+  artist: "Gold",
+  year: 1984,
+  // (chemin audio à ajouter si tu as le fichier)
+  audio_path: "hits/cfcb6edd-5f1e-41c2-bd81-9feafba40fe7.mp3",
+  lyrics: "Un peu plus près des étoiles / Au jardin de lumière et d'_____",
+  missingWord: "argent",
+  choices: ["argent", "ciel", "soleil", "vent"]
+},
+{
+  "title": "Hard to Say I'm Sorry",
+  "artist": "Chicago",
+  "year": 1982,
+  "audio_path": "hits/a162d02f-d4ae-4862-8ddc-7d59e3570769.mp3",
+  "lyrics": "Everybody needs a little time _____",
+  "missingWord": "away",
+  "choices": ["away", "alone", "to pray", "to stay"]
+},
+{
+  title: "Fame",
+  artist: "Irene Cara",
+  year: 1980,
+  audio_path: "hits/a44d7f2f-5547-445d-9a55-ea9edbc85175.mp3",
+  lyrics: "Baby look at me / And tell me what you see _____",
+  missingWord: "You ain't seen the best of me yet",
+  choices: [
+    "You ain't seen the best of me yet",
+    "This is who I'm meant to be",
+    "I will live forever",
+    "I'm dancing through the night"
+  ]
+},
+{
+    "title": "Tombé du ciel",
+    "artist": "Jacques Higelin",
+    "year": 1988,
+    "audio_path": "hits/c14d9e6b-84cf-4ffb-85be-3085f5094b97.mp3",
+    "lyrics": "Je suis tombé du ciel / Comme un ange qui _____",
+    "missingWord": "s'éveille",
+    "choices": ["s'éveille", "s'envole", "s'endort", "se brise"]
+},
+{
+  "title": "Nasty",
+  "artist": "Janet Jackson",
+  "year": 1986,
+  "audio_path": "hits/496a72ea-52cf-4446-aa32-adcf7beccfc7.mp3",
+  "lyrics": "Nasty, nasty boys ___ mean a thing / Oh you nasty boys (…)",
+  "missingWord": "don't",
+  "choices": ["don't", "never", "can’t", "won't"]
+},
+{
+  "title": "Comme toi",
+  "artist": "Jean-Jacques Goldman",
+  "year": 1982,
+  "audio_path": "hits/ad0ff03c-7740-4795-9dee-583ce6d5f0a4.mp3",
+  "lyrics": "Sa vie c'était douceur, rêves et _____ blancs",
+  "missingWord": "nuages",
+  "choices": ["nuages", "oiseaux", "soleils", "matins"]
+},
+{
+  "title": "The Power of Love",
+  "artist": "Jennifer Rush",
+  "year": 1985,
+  "audio_path": "hits/d91596f7-1fd3-40e5-aa83-03276d47ca59.mp3",
+  "lyrics": "Cause I'm your lady / And you are my _____",
+  "missingWord": "man",
+  "choices": ["man", "love", "world", "dream"]
+},
+{
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "year": 1981,
+    "audio_path": "hits/dbb3285d-0613-4acc-8c09-96988cfc6a4f.mp3",
+    "lyrics": "Just a small-town girl / Livin' in a _____",
+    "missingWord": "lonely world",
+    "choices": ["lonely world", "big city", "dreamy town", "quiet village"]
+},
+{
+    "title": "Ève lève-toi",
+    "artist": "Julie Pietri",
+    "year": 1986,
+    "audio_path": "hits/eb819e61-affb-4dea-92a8-04913f4f92c8.mp3",
+    "lyrics": "Ève lève-toi, les étoiles vont briller _____",
+    "missingWord": "pour toi",
+    "choices": ["pour toi", "dans le ciel", "dans la nuit", "à jamais"]
 }
 ];
 

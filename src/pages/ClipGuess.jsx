@@ -88,7 +88,7 @@ const clipData = [
   title: "Thriller",
   artist: "Michael Jackson",
   year: 1982,
-  audio_path: "hits/bc5a3a5f-035f-4a25-83c5-049cbb4ad2bc.mp3",
+  audio_path: "hits/622ba1ae-bacc-47d6-98ca-cda438a054be.mp3",
   hadClip: true,
   desc: "Hymne mondial du pop et du funk, célèbre pour son clip révolutionnaire et son ambiance horrifique, devenu un classique incontournable de Michael Jackson."
 },
@@ -539,6 +539,150 @@ const clipData = [
   audio_path: "hits/b2731f2e-fa51-45b8-826b-e939e39421b9.mp3",
   hadClip: true,
   desc: "Version live du tube de Paul McCartney, enregistré à Glasgow, mêlant pop-rock entraînante et énergie scénique, montrant la virtuosité du musicien après l’ère Beatles."
+},
+{
+  title: "Enjoy the Silence",
+  artist: "Depeche Mode",
+  year: 1990,
+  audio_path: "hits/e95fb79a-f16c-4097-a8f5-533c236da326.mp3",
+  hadClip: true,
+  desc: "Un des plus grands succès de Depeche Mode, mélangeant synth-pop et new wave, sur le thème de la puissance des mots et du besoin de silence dans les relations."
+},
+{
+  title: "Come On Eileen",
+  artist: "Dexys Midnight Runners",
+  year: 1982,
+  audio_path: "hits/4f63ec47-aa8f-498d-b1da-8d711fc6dfe6.mp3",
+  hadClip: true,
+  desc: "Hymne pop-rock des années 80, ce tube de Dexys Midnight Runners mêle folk, soul et énergie irrésistible, racontant une histoire d’amour adolescente et de nostalgie."
+},
+{
+  title: "That’s What Friends Are For",
+  artist: "Dionne Warwick",
+  year: 1985,
+  audio_path: "hits/73363726-26f2-48ad-9f00-0452522c4cf5.mp3",
+  hadClip: true,
+  desc: "Chanson emblématique de Dionne Warwick, interprétée avec Elton John, Gladys Knight et Stevie Wonder, célébrant l’amitié et la solidarité, et devenue un succès international tout en soutenant la lutte contre le SIDA."
+},
+{
+  title: "Ebony and Ivory",
+  artist: "Paul McCartney & Stevie Wonder",
+  year: 1982,
+  audio_path: "hits/893a5a1b-760b-490a-a6f2-3ce5b7efd781.mp3",
+  hadClip: true,
+  desc: "Un duo marquant entre Paul McCartney et Stevie Wonder, sorti en 1982, qui utilise la métaphore des touches noires et blanches d’un piano pour promouvoir l’harmonie raciale et l’égalité, et qui a été un immense succès international."
+},
+{
+  title: "Week-end à Rome",
+  artist: "Étienne Daho",
+  year: 1984,
+  audio_path: "hits/633a627d-bb84-47da-b719-851f1109de83.mp3",
+  hadClip: true,
+  desc: "Chanson emblématique de la new wave française, mêlant pop et synthétiseurs, qui raconte une escapade romantique à Rome, et a contribué à faire connaître Étienne Daho au grand public."
+},
+{
+  title: "Der Kommissar",
+  artist: "Falco",
+  year: 1981,
+  audio_path: "hits/def51103-9e33-4fe0-921e-d62445b54818.mp3",
+  hadClip: true,
+  desc: "Succès emblématique de Falco, mélangeant pop et new wave avec des paroles racontant une histoire policière urbaine, qui a propulsé l’artiste autrichien sur la scène internationale."
+},
+{
+  title: "Relax",
+  artist: "Frankie Goes To Hollywood",
+  year: 1983,
+  audio_path: "hits/d314e3f9-f0d0-4042-b3c4-6f7195c5bb36.mp3",
+  hadClip: true,
+  desc: "Tube provocateur du groupe britannique Frankie Goes To Hollywood, devenu un symbole de la pop des années 80. La chanson a marqué les esprits par son énergie synthpop et sa controverse après avoir été censurée par la BBC."
+},
+{
+  title: "Two Tribes",
+  artist: "Frankie Goes To Hollywood",
+  year: 1984,
+  audio_path: "hits/32a649cb-889f-4b9a-b016-e705983fe988.mp3",
+  hadClip: true,
+  desc: "Tube new wave emblématique des années 80 dénonçant les tensions de la Guerre froide et la menace nucléaire, connu pour son énergie électro-rock et son clip satirique mettant en scène des dirigeants mondiaux."
+},
+{
+  title: "One More Try",
+  artist: "George Michael",
+  year: 1987,
+  audio_path: "hits/a6ceaba0-cb0c-45e8-9e96-33ea34ef8f5a.mp3",
+  hadClip: true,
+  desc: "Ballade soul emblématique de George Michael, issue de l’album Faith, exprimant la douleur et la vulnérabilité face à l’amour perdu, avec une émotion intense et une voix puissante."
+},
+{
+  title: "Plus près des étoiles",
+  artist: "Gold",
+  year: 1985,
+  audio_path: "hits/cfcb6edd-5f1e-41c2-bd81-9feafba40fe7.mp3",
+  hadClip: true,
+  desc: "Grand succès du groupe Gold, symbole de la pop française des années 80, évoquant l’espoir et le rêve avec une mélodie entraînante et des paroles poétiques."
+},
+{
+  title: "Hard to Say I’m Sorry",
+  artist: "Chicago",
+  year: 1982,
+  audio_path: "hits/a162d02f-d4ae-4862-8ddc-7d59e3570769.mp3",
+  hadClip: true,
+  desc: "Ballade pop rock emblématique du groupe Chicago, mêlant piano et harmonies vocales, racontant les regrets et les excuses dans une relation amoureuse."
+},
+{
+  title: "Fame",
+  artist: "Irene Cara",
+  year: 1980,
+  audio_path: "hits/a44d7f2f-5547-445d-9a55-ea9edbc85175.mp3",
+  hadClip: true,
+  desc: "Chanson phare du film Fame, interprétée par Irene Cara, devenue un hymne pop des années 80 célébrant le rêve de célébrité, le talent et la persévérance dans le monde du spectacle."
+},
+{
+  title: "Tombé du ciel",
+  artist: "Jacques Higelin",
+  year: 1988,
+  audio_path: "hits/c14d9e6b-84cf-4ffb-85be-3085f5094b97.mp3",
+  hadClip: true,
+  desc: "Chanson emblématique de Jacques Higelin, mêlant rock et chanson française, racontant avec poésie la légèreté et les rêves de liberté de l'existence."
+},
+{
+  title: "Nasty",
+  artist: "Janet Jackson",
+  year: 1986,
+  audio_path: "hits/496a72ea-52cf-4446-aa32-adcf7beccfc7.mp3",
+  hadClip: true,
+  desc: "Hit emblématique de Janet Jackson issu de l’album Control, dénonçant les comportements irrespectueux et affirmant l’indépendance et la force des femmes, avec un style funk et R&B puissant."
+},
+{
+  title: "Comme toi",
+  artist: "Jean-Jacques Goldman",
+  year: 1983,
+  audio_path: "hits/ad0ff03c-7740-4795-9dee-583ce6d5f0a4.mp3",
+  hadClip: true,
+  desc: "Chanson émouvante de Jean-Jacques Goldman racontant l’histoire d’une petite fille juive pendant la Seconde Guerre mondiale, évoquant l’innocence perdue et la mémoire de l’Holocauste."
+},
+{
+  title: "The Power of Love",
+  artist: "Jennifer Rush",
+  year: 1984,
+  audio_path: "hits/d91596f7-1fd3-40e5-aa83-03276d47ca59.mp3",
+  hadClip: true,
+  desc: "Ballade puissante devenue l’un des plus grands succès de Jennifer Rush dans les années 80, célèbre pour sa montée vocale impressionnante et son thème sur la force de l’amour."
+},
+{
+  title: "Don’t Stop Believin’",
+  artist: "Journey",
+  year: 1981,
+  audio_path: "hits/dbb3285d-0613-4acc-8c09-96988cfc6a4f.mp3",
+  hadClip: true,
+  desc: "Hymne rock américain incontournable, ce titre de Journey raconte l’histoire d’espoir et de persévérance face aux difficultés de la vie, et est devenu un classique intergénérationnel."
+},
+{
+  title: "Ève lève-toi",
+  artist: "Julie Pietri",
+  year: 1986,
+  audio_path: "hits/eb819e61-affb-4dea-92a8-04913f4f92c8.mp3",
+  hadClip: true,
+  desc: "Grand succès de Julie Pietri dans les années 80, cette chanson pop française aborde le thème de l’émancipation féminine et reste un classique de la variété française."
 }
 ];
 

@@ -37,7 +37,6 @@ export default function WorldMap() {
 
   return (
     <div className="min-h-screen bg-black relative">
-      {/* Bouton retour fixe */}
       <Link
         to="/"
         className="fixed top-6 left-6 z-50 bg-black/70 hover:bg-black/90 text-neon-blue hover:text-neon-pink p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-[0_0_25px_rgba(0,255,255,0.5)] backdrop-blur-sm"
@@ -63,7 +62,7 @@ export default function WorldMap() {
           )}
         </div>
 
-        {loading ? null : error ? null : <WorldHitsMap hits={hits} />}
+        {!loading && !error && <WorldHitsMap hits={hits} />}
       </div>
 
       <p className="text-center text-sm text-gray-500 pb-8">

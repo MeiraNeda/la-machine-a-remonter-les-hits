@@ -118,7 +118,7 @@ const statements = [
     "title": "Thriller", 
     "artist": "Michael Jackson", 
     "year": 1982,
-    "audio_path": "hits/bc5a3a5f-035f-4a25-83c5-049cbb4ad2bc.mp3" 
+    "audio_path": "hits/622ba1ae-bacc-47d6-98ca-cda438a054be.mp3" 
   },
   "explanation": "Non, « Thriller » est une chanson originale de Michael Jackson, écrite par Rod Temperton et produite par Quincy Jones pour l’album *Thriller* sorti en 1982. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise ou samplée par d’autres artistes."
 },
@@ -738,6 +738,204 @@ const statements = [
     "audio_path": "hits/b2731f2e-fa51-45b8-826b-e939e39421b9.mp3"
   },
   "explanation": "Non, « Coming Up (Live at Glasgow) » est simplement une version live d’une chanson originale écrite et composée par Paul McCartney lui‑même. « Coming Up » est une chanson originale de Paul McCartney, publiée en 1980 sur l’album *McCartney II*. La version enregistrée en concert à Glasgow avec Wings n’est pas une reprise d’un autre artiste ou d’un autre titre ; c’est la même chanson mais interprétée en live. Elle a ensuite été publiée comme version single qui a même connu un grand succès dans les charts, notamment aux États‑Unis. Elle n’est donc pas une reprise non plus d’une chanson préexistante."
+},
+{
+  "text": "La chanson 'Enjoy the Silence' de Depeche Mode est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Enjoy the Silence", 
+    "artist": "Depeche Mode", 
+    "year": 1990,
+    "audio_path": "hits/e95fb79a-f16c-4097-a8f5-533c236da326.mp3" 
+  },
+  "explanation": "Non, « Enjoy the Silence » est une chanson originale du groupe britannique Depeche Mode, écrite par Martin Gore pour leur album *Violator* sorti en 1990. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise par d’autres artistes comme :contentReference[oaicite:0]{index=0}."
+},
+{
+  "text": "La chanson 'Come On Eileen' de Dexys Midnight Runners est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Come On Eileen", 
+    "artist": "Dexys Midnight Runners", 
+    "year": 1982,
+    "audio_path": "hits/4f63ec47-aa8f-498d-b1da-8d711fc6dfe6.mp3" 
+  },
+  "explanation": "Non, « Come On Eileen » est une chanson originale du groupe britannique Dexys Midnight Runners, écrite par Kevin Rowland, Jim Paterson et Billy Adams pour leur album *Too-Rye-Ay* sorti en 1982. Elle n’est pas une reprise d’une chanson préexistante, même si elle a été reprise plus tard par d’autres artistes."
+},
+{
+  text: "La chanson ‘That’s What Friends Are For’ de Dionne Warwick est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: { 
+    title: "That’s What Friends Are For", 
+    artist: "Dionne Warwick & Friends", 
+    year: 1985,
+    audio_path: "hits/73363726-26f2-48ad-9f00-0452522c4cf5.mp3" 
+  },
+  explanation: "Non, « That’s What Friends Are For » n’est pas une reprise d’une chanson populaire antérieure, mais elle n’est pas non plus entièrement originale à Dionne Warwick. Elle a été écrite par Burt Bacharach et Carole Bayer Sager et a d’abord été enregistrée en 1982 par Rod Stewart pour la bande originale du film *Night Shift*. La version de Dionne Warwick (accompagnée d’Elton John, Gladys Knight et Stevie Wonder) est devenue la plus célèbre en 1985, sortie comme single caritatif pour la recherche contre le SIDA. Elle est donc une reprise d’un enregistrement antérieur, plutôt qu’une composition originale de Warwick elle‑même » :contentReference[oaicite:0]{index=0}[oaicite:23]{index=1}."
+},
+{
+  "text": "La chanson 'Ebony and Ivory' attribuée à Reelblack One est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Ebony and Ivory", 
+    "artist": "Reelblack One", 
+    "year": null,
+    "audio_path": "hits/893a5a1b-760b-490a-a6f2-3ce5b7efd781.mp3"
+  },
+  "explanation": "Non, « Ebony and Ivory » n’est pas à l’origine une chanson de Reelblack One, mais une **reprise/couverture** du célèbre titre *Ebony and Ivory* écrit par **Paul McCartney** et interprété en duo avec **Stevie Wonder** en 1982. Le morceau original a été écrit par Paul McCartney pour son album *Tug of War* et n’est pas une création originale de Reelblack One, qui l’a simplement interprété dans une version de reprise. :contentReference[oaicite:0]{index=0}"
+},
+{
+  text: "La chanson 'Week-end à Rome' d’Étienne Daho est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: {
+    title: "Week-end à Rome",
+    artist: "Étienne Daho",
+    year: 1984,
+    audio_path: "hits/633a627d-bb84-47da-b719-851f1109de83.mp3",
+  },
+  explanation: "Non, « Week-end à Rome » est une chanson originale écrite et composée par Étienne Daho, sortie en single en 1984 sur son album *La notte, la notte*. Elle n’est pas une reprise d’un titre préexistant, même si elle a ensuite été reprise ou adaptée par d’autres artistes comme Saint Etienne avec “He’s on the Phone”, Nouvelle Vague avec Vanessa Paradis ou Julien Doré.:contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'Der Kommissar' de Falco est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "Der Kommissar",
+    "artist": "Falco",
+    "year": 1981,
+    audio_path: "hits/def51103-9e33-4fe0-921e-d62445b54818.mp3",
+  },
+  "explanation": "Non, « Der Kommissar » est une chanson originale de l’artiste autrichien Falco, écrite par Falco et le producteur Robert Ponger pour son album *Einzelhaft* sorti au début des années 1980 — elle n’est pas une reprise d’une chanson préexistante. Elle a ensuite été reprise et adaptée par d’autres artistes (par exemple par le groupe After the Fire ou sous des formes traduites ou remixées), mais l’œuvre initiale appartient bien à Falco.:contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'Relax' du groupe Frankie Goes To Hollywood est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Relax", 
+    "artist": "Frankie Goes To Hollywood", 
+    "year": 1983,
+    "audio_path": "hits/d314e3f9-f0d0-4042-b3c4-6f7195c5bb36.mp3" 
+  },
+  "explanation": "Non, « Relax » est une chanson originale du groupe britannique Frankie Goes To Hollywood. Elle a été écrite principalement par le chanteur Holly Johnson avec les autres membres du groupe. Sortie en 1983, elle devient un énorme succès international malgré une controverse et une interdiction temporaire de diffusion par la BBC en raison de ses paroles jugées provocantes. Ce n’est donc pas une reprise, même si la chanson a ensuite été reprise ou remixée par d’autres artistes."
+},
+{
+  "text": "La chanson 'Two Tribes' du groupe Frankie Goes To Hollywood est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Two Tribes", 
+    "artist": "Frankie Goes To Hollywood", 
+    "year": 1984,
+    "audio_path": "hits/32a649cb-889f-4b9a-b016-e705983fe988.mp3" 
+  },
+  "explanation": "Non, « Two Tribes » est une chanson originale du groupe britannique Frankie Goes To Hollywood. Elle a été écrite par le chanteur Holly Johnson et produite par Trevor Horn pour l’album *Welcome to the Pleasuredome* (1984). Le morceau, célèbre pour son thème inspiré de la guerre froide et ses nombreux remix, n’est pas une reprise d’une chanson préexistante, même s’il a été remixé et réinterprété de nombreuses fois par la suite."
+},
+{
+  text: "La chanson 'One More Try' de George Michael est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: {
+    title: "One More Try",
+    artist: "George Michael",
+    year: 1987,
+    audio_path: "hits/a6ceaba0-cb0c-45e8-9e96-33ea34ef8f5a.mp3"
+  },
+  explanation: "Non, « One More Try » est une chanson originale de l’auteur‑compositeur‑interprète britannique George Michael, écrite, composée et produite par lui‑même pour son premier album solo *Faith* sorti en 1987 (single en 1988). Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise par d’autres artistes comme Joan Baez, Divine, Hazel O’Connor, Mariah Carey, Beverley Knight, Iron & Wine, Calum Scott ou Carrie Underwood. :contentReference[oaicite:0]{index=0}"
+},
+{
+  text: "La chanson 'Plus près des étoiles' du groupe Gold est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: { 
+    title: "Plus près des étoiles", 
+    artist: "Gold", 
+    year: 1984,
+    audio_path: "hits/cfcb6edd-5f1e-41c2-bd81-9feafba40fe7.mp3"
+  },
+  explanation: "Non, « Plus près des étoiles » est une chanson originale du groupe pop français Gold, écrite et interprétée par eux et sortie en single en 1984 (et sur l’album *Le Train de mes souvenirs* en 1985). Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise par d’autres artistes comme Soprano en 2021 avec « Près des étoiles ».:contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'Hard to Say I’m Sorry' du groupe Chicago est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Hard to Say I’m Sorry", 
+    "artist": "Chicago", 
+    "year": 1982,
+    "audio_path": "hits/a162d02f-d4ae-4862-8ddc-7d59e3570769.mp3" 
+  },
+  "explanation": "Non, « Hard to Say I’m Sorry » est une chanson originale du groupe Chicago, écrite par Peter Cetera et David Foster pour l’album *Chicago 16* sorti en 1982. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise ou adaptée par de nombreux artistes, comme le groupe R&B Az Yet dans les années 1990. :contentReference[oaicite:1]{index=1}"
+},
+{
+  "text": "La chanson 'Fame' d’Irene Cara est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Fame", 
+    "artist": "Irene Cara", 
+    "year": 1980,
+    "audio_path": "hits/a44d7f2f-5547-445d-9a55-ea9edbc85175.mp3" 
+  },
+  "explanation": "Non, « Fame » est une chanson originale interprétée par Irene Cara pour le film *Fame* sorti en 1980. Elle a été écrite par Michael Gore (musique) et Dean Pitchford (paroles). La chanson a remporté l’Oscar de la meilleure chanson originale en 1981 et est devenue un grand succès international. Elle n’est pas une reprise, même si elle a ensuite été reprise ou réinterprétée par d’autres artistes."
+},
+{
+  "text": "La chanson 'Tombé du ciel' de Jacques Higelin est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "Tombé du ciel",
+    "artist": "Jacques Higelin",
+    "year": 1988,
+    "audio_path": "hits/c14d9e6b-84cf-4ffb-85be-3085f5094b97.mp3"
+  },
+  "explanation": "Non, « Tombé du ciel » est une chanson originale écrite, composée et interprétée par Jacques Higelin pour son album *Tombé du ciel* sorti en 1988. Elle n’est pas une reprise d’une chanson préexistante, même si elle a été reprise par d’autres artistes par la suite, comme par exemple des versions acoustiques ou karaoké basées sur l’œuvre originale de Higelin » :contentReference[oaicite:0]{index=0}."
+},
+{
+  text: "La chanson 'Nasty' de Janet Jackson est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: { 
+    title: "Nasty", 
+    artist: "Janet Jackson", 
+    year: 1986,
+    audio_path: "hits/496a72ea-52cf-4446-aa32-adcf7beccfc7.mp3",
+  },
+  explanation: "Non, « Nasty » est une chanson originale de la chanteuse américaine Janet Jackson, écrite par Jimmy Jam, Terry Lewis et Janet Jackson elle‑même pour son album *Control* sorti en 1986. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite inspiré ou été interprétée par d’autres artistes ou performée dans des hommages ou concerts. »:contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'Comme toi' de Jean-Jacques Goldman est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Comme toi", 
+    "artist": "Jean-Jacques Goldman", 
+    "year": 1982,
+    "audio_path": "hits/ad0ff03c-7740-4795-9dee-583ce6d5f0a4.mp3" 
+  },
+  "explanation": "Non, « Comme toi » est une chanson originale écrite et composée par Jean-Jacques Goldman. Elle est sortie en 1982 sur l’album *Jean-Jacques Goldman (Minoritaire)*. Le titre raconte l’histoire d’une petite fille juive victime de la Shoah, inspirée par une photo d’enfant que Goldman a vue dans un album de famille de sa mère. La chanson n’est donc pas une reprise, même si elle a été reprise plus tard par d’autres artistes, notamment Amel Bent dans l’album *Génération Goldman* en 2012. :contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'The Power of Love' de Jennifer Rush est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "The Power of Love", 
+    "artist": "Jennifer Rush", 
+    "year": 1984,
+    "audio_path": "hits/d91596f7-1fd3-40e5-aa83-03276d47ca59.mp3" 
+  },
+  "explanation": "Non, « The Power of Love » est une chanson originale interprétée par Jennifer Rush. Elle a été écrite par Jennifer Rush, Candy DeRouge, Mary Susan Applegate et Gunther Mende, et est sortie en 1984 sur son album *Jennifer Rush*. La chanson est devenue un immense succès international et a ensuite été reprise par d’autres artistes, notamment Laura Branigan et Céline Dion."
+},
+{
+  "text": "La chanson 'Don’t Stop Believin’' du groupe Journey est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "Don’t Stop Believin’",
+    "artist": "Journey",
+    "year": 1981,
+    "audio_path": "hits/dbb3285d-0613-4acc-8c09-96988cfc6a4f.mp3"
+  },
+  "explanation": "Non, « Don’t Stop Believin’ » est une chanson originale du groupe de rock américain Journey, écrite par Steve Perry, Neal Schon et Jonathan Cain pour leur album *Escape* sorti en 1981. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise par d’autres artistes (par exemple par la distribution de la série *Glee* en 2009).\""
+},
+{
+  "text": "La chanson 'Ève lève‑toi' de Julie Pietri est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Ève lève‑toi", 
+    "artist": "Julie Pietri", 
+    "year": 1986,
+    "audio_path": "hits/eb819e61-affb-4dea-92a8-04913f4f92c8.mp3" 
+  },
+  "explanation": "Non, « Ève lève‑toi » est une chanson originale interprétée par Julie Pietri, écrite par Julie Pietri et Jean‑Michel Bériat (paroles) avec une musique de Vincent‑Marie Bouvot, sortie en 1986 sur son album *Le Premier Jour*. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise ou réinterprétée par d’autres artistes ou dans différents styles. :contentReference[oaicite:0]{index=0}"
 }
   // Ajoute tes propres affirmations et hits réels ici
 ];

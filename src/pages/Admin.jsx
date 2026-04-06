@@ -3,14 +3,12 @@ import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../context/AuthContext';
 import { Link } from 'react-router-dom';
-import { useDataRefresh } from '../context/DataRefreshContext';
 import CartoonsPage from './CartoonsPage';
 
 const ADMIN_EMAIL = 'hava.flne26@gmail.com';
 
 export default function Admin() {
   const { user, loading: authLoading } = useAuth();
-  const { triggerRefresh } = useDataRefresh();
 
   const [activeTab, setActiveTab] = useState('hit'); // 'hit' | 'movie' | 'book'
 
@@ -106,6 +104,36 @@ export default function Admin() {
       setError('Accès réservé à l’administrateur.');
     }
   }, [user, authLoading]);
+
+    // === REAL-TIME : Mise à jour instantanée après ajout d'un hit ===
+  useEffect(() => {
+    if (!user || user.email !== ADMIN_EMAIL) return;
+
+    const channel = supabase
+      .channel('admin-hits-changes')
+      .on(
+        'postgres_changes',
+        { 
+          event: '*', 
+          schema: 'public', 
+          table: 'hits' 
+        },
+        (payload) => {
+          console.log('🔄 Changement détecté dans hits (Admin):', payload.eventType);
+          
+          // Optionnel : petite notification visuelle
+          setMessage(`✅ Hit ${payload.eventType === 'INSERT' ? 'ajouté' : payload.eventType === 'UPDATE' ? 'modifié' : 'supprimé'} avec succès !`);
+          
+          // Efface le message après 3 secondes
+          setTimeout(() => setMessage(''), 3000);
+        }
+      )
+      .subscribe();
+
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, [user]);
 
   // Prévisualisations
   useEffect(() => {
@@ -278,7 +306,6 @@ export default function Admin() {
       if (dbErr) throw dbErr;
 
       // Succès
-      triggerRefresh();
       setMessage('✅ Hit ajouté avec succès !');
 
       // Réinitialisation du formulaire
@@ -374,7 +401,6 @@ const handleSubmitMovie = async (e) => {
     if (dbErr) throw dbErr;
 
     // Succès
-    triggerRefresh();
     setMessage('✅ Film/Série ajouté avec succès !');
     resetMovieForm();
 
@@ -437,7 +463,6 @@ const handleSubmitMovie = async (e) => {
 
       if (dbErr) throw dbErr;
 
-      triggerRefresh();
       setMessage('✅ Roman ajouté avec succès !');
       resetBookForm();
     } catch (err) {
@@ -508,7 +533,6 @@ const handleSubmitCartoon = async (e) => {
 
       if (dbErr) throw dbErr;
 
-      triggerRefresh();
       setMessage('✅ Dessin animé ajouté avec succès !');
       resetCartoonForm();
 
