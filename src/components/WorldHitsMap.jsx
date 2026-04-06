@@ -62,8 +62,10 @@ export default function WorldHitsMap({ hits = [] }) {
         >
           {/* Fond synthwave (inchangé) */}
           <TileLayer
-            url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
-            attribution="© OpenStreetMap © Stadia Maps"
+            url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=fa3ed088-cdce-442a-9553-8ee15fe81453"
+            attribution='© OpenStreetMap © Stadia Maps'
+            // Optional: force retina if you want sharper tiles
+            // detectRetina={true}
           />
 
           {/* Cluster des hits (légèrement amélioré visuellement) */}
