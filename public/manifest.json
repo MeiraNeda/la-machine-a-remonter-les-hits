@@ -1,13 +1,14 @@
 {
   "name": "La Machine à Remonter les Hits",
   "short_name": "80s Hits",
-  "description": "Revivez les plus grands tubes des années 80",
+  "description": "Revivez les plus grands tubes des années 80 avec histoires, quizzes et clips",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#ff00ff",
   "orientation": "portrait-primary",
+  "scope": "/",
+  "id": "la-machine-a-remonter-les-hits",
   "icons": [
     {
       "src": "/icon-192.png",
