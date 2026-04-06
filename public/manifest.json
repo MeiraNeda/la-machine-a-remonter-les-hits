@@ -3,6 +3,7 @@
   "short_name": "80s Hits",
   "description": "Revivez les plus grands tubes des années 80",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#ff00ff",
