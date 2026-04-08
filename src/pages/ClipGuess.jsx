@@ -683,6 +683,198 @@ const clipData = [
   audio_path: "hits/eb819e61-affb-4dea-92a8-04913f4f92c8.mp3",
   hadClip: true,
   desc: "Grand succès de Julie Pietri dans les années 80, cette chanson pop française aborde le thème de l’émancipation féminine et reste un classique de la variété française."
+},
+{
+  title: "Please Don’t Go",
+  artist: "KC & The Sunshine Band",
+  year: 1979,
+  audio_path: "hits/a0141c24-4e57-4daf-a398-dc4266fea4fb.mp3",
+  hadClip: true,
+  desc: "Ballade disco emblématique du groupe KC & The Sunshine Band, exprimant la douleur de la séparation et l’espoir de reconquête amoureuse, très populaire à la fin des années 70."
+},
+{
+  title: "Footloose",
+  artist: "Kenny Loggins",
+  year: 1984,
+  audio_path: "hits/cc0ce054-c4dc-4e73-bca7-947d84a1619d.mp3",
+  hadClip: true,
+  desc: "Tube incontournable des années 80 issu du film Footloose, mêlant rock et pop dans un hymne énergique à la danse et à la liberté de la jeunesse."
+},
+{
+  title: "Gloria",
+  artist: "Laura Branigan",
+  year: 1982,
+  audio_path: "hits/94eff5e9-5d28-480c-acac-68d276d5f94c.mp3",
+  hadClip: true,
+  desc: "Tube pop et dance des années 80 interprété par Laura Branigan, célèbre pour son énergie et sa mélodie accrocheuse, devenu un classique des pistes de danse."
+},
+{
+  title: "Self Control",
+  artist: "Laura Branigan",
+  year: 1984,
+  audio_path: "hits/4c8c6138-9452-43cc-b1d3-18be6ebe470f.mp3",
+  hadClip: true,
+  desc: "Tube synth-pop emblématique des années 80 interprété par Laura Branigan, racontant l’attraction et les dangers de la vie nocturne, devenu célèbre pour son ambiance sombre et son clip marquant."
+},
+{
+  title: "Funkytown",
+  artist: "Lipps Inc.",
+  year: 1980,
+  audio_path: "hits/7186ebc5-97f7-4759-936e-215fde5f354c.mp3",
+  hadClip: true,
+  desc: "Tube disco emblématique de Lipps Inc., caractérisé par son rythme dansant et son ambiance funk, qui a marqué la fin des années 70 et le début des années 80."
+},
+{
+  title: "Working for the Weekend",
+  artist: "Loverboy",
+  year: 1981,
+  audio_path: "hits/5ffcae27-36ae-433e-8f84-47c2abe0ab7a.mp3",
+  hadClip: true,
+  desc: "Hymne rock des années 80 du groupe canadien Loverboy, célébrant le week-end et la libération après une semaine de travail, avec des riffs de guitare entraînants et une énergie contagieuse."
+},
+{
+  title: "You Got It (The Right Stuff)",
+  artist: "New Kids on the Block",
+  year: 1988,
+  audio_path: "hits/801e7065-a6b5-4c9f-bb72-f107f28c9ee6.mp3",
+  hadClip: true,
+  desc: "Hit emblématique du groupe New Kids on the Block, mélangeant pop et R&B des années 80, connu pour son rythme entraînant et son clip dynamique mettant en scène le groupe."
+},
+{
+  title: "L’amour à la plage",
+  artist: "Niagara",
+  year: 1986,
+  audio_path: "hits/9d6faf6d-b899-4cbd-9d83-ccf69811fbba.mp3",
+  hadClip: true,
+  desc: "Tube pop emblématique des années 80 du duo Niagara, au son synthpop léger et estival, évoquant une romance de vacances au bord de la mer."
+},
+{
+  title: "Magic",
+  artist: "Olivia Newton-John",
+  year: 1980,
+  audio_path: "hits/c5a7fb1a-0c91-4bec-99d9-0f175a993c65.mp3",
+  hadClip: true,
+  desc: "Ballade pop romantique interprétée par Olivia Newton-John pour la bande originale du film Xanadu, devenue un grand succès international au début des années 1980."
+},
+{
+  title: "Casser la voix",
+  artist: "Patrick Bruel",
+  year: 1989,
+  "audio_path": "hits/ae40e110-8b37-41dd-9153-61b11d7968bc.mp3",
+  hadClip: true,
+  desc: "Un des plus grands succès de Patrick Bruel, chanson emblématique de la variété française qui parle de libération et d’exprimer ses émotions face aux difficultés de la vie."
+},
+{
+  title: "Glory of Love",
+  artist: "Peter Cetera",
+  year: 1986,
+  "audio_path": "hits/e3e3d25c-6b44-4f07-ad0f-c9bc8134621b.mp3",
+  hadClip: true,
+  desc: "Ballade rock romantique interprétée par Peter Cetera, célèbre pour avoir été la chanson thème du film 'The Karate Kid II', évoquant l’amour et la bravoure."
+},
+{
+  title: "In the Air Tonight",
+  artist: "Phil Collins",
+  year: 1981,
+  audio_path: "hits/4db576a0-bc57-43aa-a4d3-749f544b79e4.mp3",
+  hadClip: true,
+  desc: "Premier grand succès solo de Phil Collins, célèbre pour son atmosphère sombre et son mythique break de batterie, devenu l’un des titres les plus emblématiques des années 80."
+},
+{
+  title: "Another Brick in the Wall (Part II)",
+  artist: "Pink Floyd",
+  year: 1979,
+  audio_path: "hits/6e8c9331-ad13-46ed-a566-e76ab36fc0ae.mp3",
+  hadClip: true,
+  desc: "Titre emblématique de Pink Floyd issu de l’album The Wall, critiquant le système éducatif rigide et l’aliénation sociale, célèbre pour son refrain chanté par une chorale d’enfants."
+},
+{
+  title: "Pour le plaisir",
+  artist: "Herbert Léonard",
+  year: 1981,
+  audio_path: "hits/28d7ad8f-a104-4d7b-8683-3c594f3f1e51.mp3",
+  hadClip: true,
+  desc: "Ballade romantique emblématique des années 80, qui a propulsé Herbert Léonard au rang de star de la chanson française, exprimant le désir de vivre l’amour intensément et sans contrainte."
+},
+{
+  title: "Purple Rain",
+  artist: "Prince",
+  year: 1984,
+  audio_path: "hits/fe923c2f-e833-40db-8c8b-2d4df29375e1.mp3",
+  hadClip: true,
+  desc: "Ballade rock emblématique de Prince, tirée de l’album et du film du même nom, mêlant émotion, guitare virtuose et une puissance vocale intense, devenue un classique intemporel."
+},
+{
+  title: "Crazy Little Thing Called Love",
+  artist: "Queen",
+  year: 1979,
+  audio_path: "hits/2e474388-ac23-46ae-b333-818cd36c8b95.mp3",
+  hadClip: true,
+  desc: "Hymne rockabilly du groupe Queen, écrit par Freddie Mercury, mêlant énergie rétro et charme du rock ‘n’ roll, devenu un classique incontournable du groupe."
+},
+{
+  title: "Ghostbusters",
+  artist: "Ray Parker Jr.",
+  year: 1984,
+  audio_path: "hits/51151695-1b78-499d-a2a1-93a9087197f1.mp3",
+  hadClip: true,
+  desc: "Chanson culte écrite pour le film Ghostbusters, devenue un immense succès des années 80 grâce à son refrain accrocheur et son clip humoristique rempli de célébrités."
+},
+{
+  title: "Morgane de toi",
+  artist: "Renaud",
+  year: 1983,
+  audio_path: "hits/527f6643-8888-4b10-a2e6-bcc6178c03e3.mp3",
+  hadClip: true,
+  desc: "Chanson tendre et populaire de Renaud dédiée à sa fille Lolita, mêlant humour, amour paternel et regard protecteur sur le monde qui l’entoure."
+},
+{
+  title: "Never Gonna Give You Up",
+  artist: "Rick Astley",
+  year: 1987,
+  audio_path: "hits/47b43236-5d61-477b-8e04-fe7b857f5b37.mp3",
+  hadClip: true,
+  desc: "Tube emblématique de Rick Astley, mélangeant dance-pop et soul, connu pour son refrain accrocheur et devenu un phénomène viral avec le mème du 'Rickrolling'."
+},
+{
+  title: "Rock with You",
+  artist: "Michael Jackson",
+  year: 1979,
+  audio_path: "hits/1abd7f9e-6bb5-404e-846e-f691affa7fa9.mp3",
+  hadClip: true,
+  desc: "Un classique disco-funk de Michael Jackson issu de l’album *Off the Wall*, célèbre pour son groove suave et sa voix chaleureuse, devenu un incontournable des pistes de danse."
+},
+{
+  title: "Escape (The Piña Colada Song)",
+  artist: "Rupert Holmes",
+  year: 1979,
+  audio_path: "hits/9af5c298-e242-4ad6-964d-82eb91d0a6ce.mp3",
+  hadClip: true,
+  desc: "Tube pop-rock de Rupert Holmes racontant l’histoire d’un couple découvrant, par petites annonces, qu’ils se plaisent toujours malgré la routine, célèbre pour son refrain accrocheur sur la piña colada."
+},
+{
+  title: "Don’t You (Forget About Me)",
+  artist: "Simple Minds",
+  year: 1985,
+  audio_path: "hits/189c6c33-86f5-4ac5-a23f-78eb1266646d.mp3",
+  hadClip: true,
+  desc: "Chanson emblématique des années 80 du groupe Simple Minds, célèbre pour sa présence dans le film *The Breakfast Club*, devenue un hymne générationnel sur la mémoire et les souvenirs d’adolescence."
+},
+{
+  title: "Being With You",
+  artist: "Smokey Robinson",
+  year: 1981,
+  audio_path: "hits/3c3d51bf-781f-4d31-ada8-c9b3f7b9022b.mp3",
+  hadClip: true,
+  desc: "Ballade soul emblématique de Smokey Robinson, mettant en avant sa voix suave et une mélodie romantique, qui a rencontré un grand succès international dans les années 80."
+},
+{
+  title: "Tainted Love",
+  artist: "Soft Cell",
+  year: 1981,
+  audio_path: "hits/04407dc7-4825-4945-8c13-552c2251fbd9.mp3",
+  hadClip: true,
+  desc: "Reprise électro-pop du classique des années 60, devenu un tube emblématique des années 80 grâce à son rythme synth-pop accrocheur et la voix distinctive de Marc Almond."
 }
 ];
 

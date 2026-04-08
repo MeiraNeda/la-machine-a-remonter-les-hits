@@ -936,6 +936,270 @@ const statements = [
     "audio_path": "hits/eb819e61-affb-4dea-92a8-04913f4f92c8.mp3" 
   },
   "explanation": "Non, « Ève lève‑toi » est une chanson originale interprétée par Julie Pietri, écrite par Julie Pietri et Jean‑Michel Bériat (paroles) avec une musique de Vincent‑Marie Bouvot, sortie en 1986 sur son album *Le Premier Jour*. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise ou réinterprétée par d’autres artistes ou dans différents styles. :contentReference[oaicite:0]{index=0}"
+},
+{
+  text: "La chanson 'Please Don't Go' de KC & The Sunshine Band est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: { 
+    title: "Please Don't Go", 
+    artist: "KC & The Sunshine Band", 
+    year: 1979,
+    audio_path: "hits/a0141c24-4e57-4daf-a398-dc4266fea4fb.mp3"
+  },
+  explanation: "Non, « Please Don't Go » est une chanson originale du groupe KC & The Sunshine Band, écrite par Harry Wayne Casey et Richard Finch, et publiée en 1979 sur l’album *Do You Wanna Go Party?*. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise et couverte par de nombreux autres artistes (par exemple Double You, KWS ou Basshunter).\""
+},
+{
+  "text": "La chanson 'Footloose' de Kenny Loggins est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "Footloose",
+    "artist": "Kenny Loggins",
+    "year": 1984,
+    "audio_path": "hits/cc0ce054-c4dc-4e73-bca7-947d84a1619d.mp3"
+  },
+  "explanation": "Non, « Footloose » est une chanson originale interprétée par Kenny Loggins et écrite par Kenny Loggins et Dean Pitchford pour la bande originale du film *Footloose* sorti en 1984. Elle n’est pas une reprise d’une chanson préexistante, mais elle a été reprise par plusieurs artistes par la suite et reste l’un des titres emblématiques des années 1980."
+},
+{
+  "text": "La chanson 'Gloria' de Laura Branigan est une reprise d’une autre chanson",
+  "isTrue": true,
+  "related_hit": { 
+    "title": "Gloria", 
+    "artist": "Laura Branigan", 
+    "year": 1982,
+    "audio_path": "hits/94eff5e9-5d28-480c-acac-68d276d5f94c.mp3" 
+  },
+  "explanation": "Oui, « Gloria » interprétée par Laura Branigan est une reprise. La chanson originale a été écrite et enregistrée en italien par Umberto Tozzi en 1979. La version de Laura Branigan, sortie en 1982 sur son album *Branigan*, est une adaptation en anglais qui a rencontré un grand succès international."
+},
+{
+  "text": "La chanson 'Self Control' interprétée par Laura Branigan est une reprise d’une autre chanson",
+  "isTrue": true,
+  "related_hit": {
+    "title": "Self Control",
+    "artist": "Laura Branigan",
+    "year": 1984,
+    "audio_path": "hits/4c8c6138-9452-43cc-b1d3-18be6ebe470f.mp3"
+  },
+  "explanation": "Oui, « Self Control » n’est pas une chanson originale écrite spécifiquement pour Laura Branigan. Elle a été écrite par Giancarlo Bigazzi, Steve Piccolo et Raffaele Riefoli, et d’abord enregistrée par le chanteur italien **Raf** (sous son vrai nom Raffaele Riefoli) en 1984, la même année que la version de Branigan. La version de Branigan est donc une reprise de cette chanson italienne, qui a connu un grand succès international dans sa version pop/Italo‑disco. La chanson originale de Raf a été publiée peu de temps avant et est considérée comme la version d’origine même si les deux versions sont sorties très proches l’une de l’autre dans le temps. Par la suite, la version de Branigan est devenue l’un de ses plus grands succès internationaux. :contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'Funkytown' du groupe Lipps Inc. est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Funkytown", 
+    "artist": "Lipps Inc.", 
+    "year": 1980,
+    "audio_path": "hits/7186ebc5-97f7-4759-936e-215fde5f354c.mp3" 
+  },
+  "explanation": "Non, « Funkytown » est une chanson originale du groupe américain Lipps Inc., écrite par Steven Greenberg pour leur album *Mouth to Mouth* sorti en 1980. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise ou remixée par d’autres artistes."
+},
+{
+  "text": "La chanson « Working for the Weekend » de Loverboy est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "Working for the Weekend",
+    "artist": "Loverboy",
+    "year": 1981,
+    "audio_path": "hits/5ffcae27-36ae-433e-8f84-47c2abe0ab7a.mp3",
+  },
+  "explanation": "Non, « Working for the Weekend » est une chanson originale du groupe rock canadien Loverboy, écrite par les membres Paul Dean, Mike Reno et Matt Frenette pour leur album *Get Lucky* sorti en 1981. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise ou interprétée par d’autres artistes ou dans des contextes différents (karaoké, covers, parodies, etc.). :contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'You Got It (The Right Stuff)' du groupe New Kids on the Block est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "You Got It (The Right Stuff)",
+    "artist": "New Kids on the Block",
+    "year": 1988,
+    "audio_path": "hits/801e7065-a6b5-4c9f-bb72-f107f28c9ee6.mp3",
+  },
+  "explanation": "Non, « You Got It (The Right Stuff) » est une chanson originale du boys band américain New Kids on the Block, écrite et produite par Maurice Starr pour leur album *Hangin' Tough* sorti en 1988. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été interprétée ou couverte par d’autres artistes/performances à la télévision ou dans des concours musicaux."
+},
+{
+  "text": "La chanson 'L’amour à la plage' du groupe Niagara est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "L’amour à la plage",
+    "artist": "Niagara",
+    "year": 1986,
+    "audio_path": "hits/9d6faf6d-b899-4cbd-9d83-ccf69811fbba.mp3"
+  },
+  "explanation": "Non, « L’amour à la plage » est une chanson originale du groupe français Niagara, écrite et composée par Muriel Moreno et Daniel Chenevez. Elle est sortie en 1986 sur l’album *Encore un dernier baiser*. Le titre est devenu l’un des plus grands succès du groupe et n’est pas une reprise d’une chanson préexistante."
+},
+{
+  "text": "La chanson 'Magic' de Olivia Newton-John est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Magic", 
+    "artist": "Olivia Newton-John", 
+    "year": 1980,
+    audio_path: "hits/c5a7fb1a-0c91-4bec-99d9-0f175a993c65.mp3",
+  },
+  "explanation": "Non, « Magic » est une chanson originale interprétée par Olivia Newton-John, écrite et produite par John Farrar pour la bande originale du film *Xanadu* sorti en 1980. Elle n’est pas une reprise d’une chanson préexistante. Le titre est devenu l’un des plus grands succès d’Olivia Newton-John et a atteint la première place du classement Billboard Hot 100 aux États-Unis."
+},
+{
+  "text": "La chanson 'Casser la voix' de Patrick Bruel est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "Casser la voix",
+    "artist": "Patrick Bruel",
+    "year": 1989,
+    "audio_path": "hits/ae40e110-8b37-41dd-9153-61b11d7968bc.mp3",
+  },
+  "explanation": "Non, « Casser la voix » est une chanson originale interprétée par Patrick Bruel, coécrite par lui‑même et Gérard Presgurvic pour son album *Alors regarde* sorti en 1989. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été interprétée ou reprise par d’autres artistes (notamment lors des concerts des Enfoirés ou par divers interprètes). :contentReference[oaicite:0]{index=0}"
+},
+{
+  text: "La chanson 'Glory of Love' de Peter Cetera est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: { 
+    title: "Glory of Love", 
+    artist: "Peter Cetera", 
+    year: 1986,
+    audio_path: "hits/e3e3d25c-6b44-4f07-ad0f-c9bc8134621b.mp3",
+  },
+  explanation: "Non, « Glory of Love » est une chanson originale interprétée par **Peter Cetera**, écrite et composée par lui-même avec **David Foster** et **Diane Nini** pour son album *Solitude/Solitaire* (et figurant dans le film *The Karate Kid Part II*) ; ce n’est **pas** une reprise d’une chanson préexistante, même si elle a été reprise par divers artistes par la suite. »"
+},
+{
+  "text": "La chanson 'In the Air Tonight' de Phil Collins est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "In the Air Tonight", 
+    "artist": "Phil Collins", 
+    "year": 1981,
+    audio_path: "hits/4db576a0-bc57-43aa-a4d3-749f544b79e4.mp3",
+  },
+  "explanation": "Non, « In the Air Tonight » est une chanson originale de Phil Collins, écrite et composée par lui-même pour son premier album solo *Face Value* sorti en 1981. Elle n’est pas une reprise d’une chanson préexistante. Le morceau est devenu célèbre notamment pour son atmosphère sombre et son célèbre break de batterie. Il a ensuite été repris ou samplé par plusieurs artistes."
+},
+{
+  "text": "La chanson 'Another Brick in the Wall (Part II)' de Pink Floyd est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Another Brick in the Wall (Part II)", 
+    "artist": "Pink Floyd", 
+    "year": 1979,
+    audio_path: "hits/6e8c9331-ad13-46ed-a566-e76ab36fc0ae.mp3",
+  },
+  "explanation": "Non, « Another Brick in the Wall (Part II) » est une chanson originale de Pink Floyd, écrite par Roger Waters pour l’album *The Wall* sorti en 1979. Elle n’est pas une reprise d’une chanson préexistante. Le morceau est devenu l’un des plus grands succès du groupe, notamment grâce à son refrain chanté par une chorale d’enfants et sa critique du système éducatif. La chanson a ensuite été reprise ou remixée par d’autres artistes, mais la version originale est bien celle de Pink Floyd."
+},
+{
+  text: "La chanson 'Pour le plaisir' d’Herbert Léonard est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: {
+    title: "Pour le plaisir",
+    artist: "Herbert Léonard",
+    year: 1981,
+    audio_path: "hits/28d7ad8f-a104-4d7b-8683-3c594f3f1e51.mp3"
+  },
+  explanation: "Non, « Pour le plaisir » est une chanson originale interprétée par Herbert Léonard, écrite par Claude Carmone et Vline Buggy, avec une musique de Julien Lepers, et publiée en 1981. Elle n’est pas une reprise d’un titre antérieur, même si elle a connu par la suite diverses adaptations par d’autres artistes et instrumentaux. » :contentReference[oaicite:0]{index=0}"
+},
+{
+  text: "La chanson 'Purple Rain' de Prince est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: { 
+    title: "Purple Rain", 
+    artist: "Prince", 
+    year: 1984,
+    audio_path: "hits/fe923c2f-e833-40db-8c8b-2d4df29375e1.mp3" 
+  },
+  explanation: "Non, « Purple Rain » est une chanson originale de **Prince** (et de son groupe The Revolution), écrite et composée par Prince pour l’album et le film *Purple Rain* sortis en 1984. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise ou interprétée par d’autres artistes au fil des années. » :contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'Crazy Little Thing Called Love' de Queen est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Crazy Little Thing Called Love", 
+    "artist": "Queen", 
+    "year": 1979,
+    "audio_path": "hits/2e474388-ac23-46ae-b333-818cd36c8b95.mp3"
+  },
+  "explanation": "Non, « Crazy Little Thing Called Love » est une chanson originale du groupe britannique Queen, écrite par Freddie Mercury. Elle est sortie sur l’album *The Game* en 1980 (mais enregistrée en 1979). Il ne s’agit pas d’une reprise, même si elle a été reprise plus tard par de nombreux artistes."
+},
+{
+  "text": "La chanson 'Ghostbusters' de Ray Parker Jr. est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Ghostbusters", 
+    "artist": "Ray Parker Jr.", 
+    "year": 1984,
+    "audio_path": "hits/51151695-1b78-499d-a2a1-93a9087197f1.mp3" 
+  },
+  "explanation": "Non, « Ghostbusters » est une chanson originale écrite et interprétée par Ray Parker Jr. pour la bande originale du film *Ghostbusters* sorti en 1984. Elle n’est pas une reprise d’une chanson existante. Cependant, la chanson a suscité une controverse car sa mélodie ressemblait à celle de « I Want a New Drug » de Huey Lewis and the News, ce qui a mené à un accord juridique entre les artistes."
+},
+{
+  "text": "La chanson 'Morgane de toi' de Renaud est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Morgane de toi", 
+    "artist": "Renaud", 
+    "year": 1983,
+    "audio_path": "hits/527f6643-8888-4b10-a2e6-bcc6178c03e3.mp3" 
+  },
+  "explanation": "Non, « Morgane de toi » est une chanson originale écrite et interprétée par Renaud pour son album *Morgane de toi* sorti en 1983. La chanson est dédiée à sa fille Lolita et n’est pas une reprise d’une œuvre préexistante, même si elle est devenue l’un de ses titres les plus célèbres."
+},
+{
+  "text": "La chanson 'Never Gonna Give You Up' de Rick Astley est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": { 
+    "title": "Never Gonna Give You Up", 
+    "artist": "Rick Astley", 
+    "year": 1987,
+    "audio_path": "hits/47b43236-5d61-477b-8e04-fe7b857f5b37.mp3" 
+  },
+  "explanation": "Non, « Never Gonna Give You Up » est une chanson originale écrite par le trio Stock Aitken Waterman pour Rick Astley et sortie en 1987. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise ou samplée par d’autres artistes."
+},
+{
+  text: "La chanson 'Rock with You' de Michael Jackson est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: { 
+    title: "Rock with You", 
+    artist: "Michael Jackson", 
+    year: 1979,
+    audio_path: "hits/..." 
+  },
+  explanation: "Non, « Rock with You » est une chanson originale interprétée par Michael Jackson, écrite par Rod Temperton (paroles et musique) et produite par Quincy Jones pour son album *Off the Wall* sorti en 1979. Elle n’est pas une reprise d’une chanson préexistante, même si l’auteur Rod Temperton avait initialement proposé la composition à une autre artiste (qui l’a refusée) avant que Jackson ne l’enregistre. Elle a ensuite été reprise ou réinterprétée par d’autres artistes dans différents contextes.﻿"
+},
+{
+  "text": "La chanson 'Escape (The Piña Colada Song)' de Rupert Holmes est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "Escape (The Piña Colada Song)",
+    "artist": "Rupert Holmes",
+    "year": 1979,
+    "audio_path": "hits/9af5c298-e242-4ad6-964d-82eb91d0a6ce.mp3"
+  },
+  "explanation": "Non, « Escape (The Piña Colada Song) » est une chanson originale écrite et interprétée par Rupert Holmes pour son album *Partners in Crime*, sorti en 1979. Elle n’est pas une reprise d’une chanson préexistante, même si elle a ensuite été reprise par d’autres artistes. » :contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'Don’t You (Forget About Me)' de Simple Minds est une reprise d’une autre chanson",
+  "isTrue": false,
+  "related_hit": {
+    "title": "Don’t You (Forget About Me)",
+    "artist": "Simple Minds",
+    "year": 1985,
+    "audio_path": "hits/189c6c33-86f5-4ac5-a23f-78eb1266646d.mp3"
+  },
+  "explanation": "Non, « Don’t You (Forget About Me) » est une chanson interprétée par le groupe écossais Simple Minds, mais **ce n’est pas une reprise d’une chanson préexistante**. Elle a été **écrite spécialement pour le film *The Breakfast Club* (1985)** par les auteurs-compositeurs Keith Forsey et Steve Schiff, et Simple Minds a ensuite accepté de l’enregistrer après que plusieurs autres artistes l’aient refusée. La chanson n’est donc pas une reprise, même si elle a été reprise par d’autres artistes par la suite comme Decoy, Billy Idol ou KT Tunstall. :contentReference[oaicite:0]{index=0}"
+},
+{
+  text: "La chanson 'Being with You' de Smokey Robinson est une reprise d’une autre chanson",
+  isTrue: false,
+  related_hit: { 
+    title: "Being with You", 
+    artist: "Smokey Robinson", 
+    year: 1981,
+    audio_path: "hits/3c3d51bf-781f-4d31-ada8-c9b3f7b9022b.mp3"
+  },
+  explanation: "Non, « Being with You » est une chanson originale écrite et enregistrée par Smokey Robinson lui‑même, sortie comme single en 1981 et titre principal de son album du même nom. Elle n’est pas une reprise d’une chanson préexistante, même si d’autres artistes ou productions peuvent en proposer des versions reprises ou instrumentales.:contentReference[oaicite:0]{index=0}"
+},
+{
+  "text": "La chanson 'Tainted Love' du groupe Soft Cell est une reprise d’une autre chanson",
+  "isTrue": true,
+  "related_hit": { 
+    "title": "Tainted Love", 
+    "artist": "Soft Cell", 
+    "year": 1981,
+    "audio_path": "hits/04407dc7-4825-4945-8c13-552c2251fbd9.mp3"
+  },
+  "explanation": "Oui, « Tainted Love » interprétée par le duo britannique Soft Cell en 1981 est une reprise d’une chanson initialement écrite et enregistrée par Gloria Jones en 1964. La version de Soft Cell a popularisé la chanson à l’échelle internationale et est devenue un classique de la new wave, bien que l’original de Gloria Jones soit resté moins connu."
 }
   // Ajoute tes propres affirmations et hits réels ici
 ];
